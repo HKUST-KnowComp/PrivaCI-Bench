@@ -1,0 +1,21 @@
+Here is a law case and its Contextual Integrity elements. Please analyze the case and answer the following question.
+
+**Event:**
+{event}
+
+**Contextual Integrity Elements:**
+- **Sender:** {sender}, on the role of {sender_role}
+- **Recipient:** {recipient}, on the role of {recipient_role}
+- **Subject:** {subject}, on the role of {subject_role}
+- **Information Type:** {information_type}
+- **Consent Form:** {consent_form}
+- **Purpose:** {purpose}
+
+Determine the relationship between the provided event and the {domain} regulations, by analyzing the provided Contextual Integrity elements: 
+(A) The event is prohibited by {domain}.
+(B) The event is permitted by {domain}.
+(C) The event is not related to {domain}.
+
+**Output Format:**
+
+Choice: [A. Prohibited | B. Permitted | C. Not related]

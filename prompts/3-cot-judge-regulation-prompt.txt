@@ -1,0 +1,25 @@
+You have been provided with an event and a candidate HIPAA regulation. Assess whether the content of the candidate regulation is directly related to the event. Provide your judgment along with reasons for your decision.
+
+Event: {event}
+
+Candidate HIPAA Regulation: {candidate_law}
+
+Let's complete it step by step:
+1.Understand the Event: Carefully review the details of the event, noting key aspects such as the type of information involved, the method of transmission, the parties involved, and any specific circumstances mentioned.
+2.Analyze the Candidate Regulation: Examine the text of the candidate HIPAA regulation, focusing on its scope, intent, and specific provisions.
+3.Identify Relevant Factors: Determine which aspects of the HIPAA regulation could potentially be applicable to the event. Consider factors such as privacy, security, data handling, and disclosure rules.
+4.Match Regulation Provisions to Event Details: Cross-reference the details of the event with the provisions of the regulation to see if there is a direct connection. Check if the regulation addresses any of the risks, actions, or scenarios presented in the event.
+
+Output Format:
+
+Execution: [Document the outcomes from executing the process:]
+1. - ...
+2. - ...
+...
+4. - ...
+
+Judgment: [yes/no. "yes" for relevant, "no" for not irrelevant]
+
+Reason: (Briefly explain why the candidate regulation is relevant or irrelevant to the event)
+
+Assistant:

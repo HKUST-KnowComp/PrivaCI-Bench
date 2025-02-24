@@ -1,0 +1,25 @@
+I will provide you with an event concerning the delivery of information. Your task is to generate content related to this event by applying your knowledge of the {domain} regulations.
+
+To ensure the content is relevant and accurate, follow these steps:
+
+1. Understand the Event: Clearly define and understand the specifics of the event. Identify the key players involved, the type of information being handled, and the context in which it is being delivered.
+2. Apply the {domain} Knowledge: Utilize your understanding of the {domain} regulations, focusing on privacy, security, and other necessary information principles. Ensure that your content addresses these aspects in the context of the event.
+
+Event Details:
+{event}
+
+Your output format should include **Execution**, **Generated {domain} Content** and **References** as follows:
+
+**Execution**:
+
+1. Identify the key players, type of information transmitted, and context.
+2. Apply relevant the {domain} principles to the event.
+
+**Generated {domain} Content**:
+1. The {domain} Rule with its content: ...
+2. Other Necessary Standard:...
+
+**References**:
+List the specific the {domain} regulations you consulted to generate the content.
+
+Assistant:

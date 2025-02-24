@@ -1,0 +1,29 @@
+You are provided with an event that involves either sending or requesting information. Your task is to analyze this event in the context of HIPAA regulations, using the list of potential HIPAA regulation candidates given.
+
+Identify Relevant Regulations and Need for More Information: From the provided candidates, select regulations relevant to the event and categorize them appropriately.
+1. Lookup: Identify regulations that may be relevant but require additional specific details or sub-items to make a clear determination. Prioritize regulations where the lack of details significantly impacts the ability to assess their relevance.
+2. Selected: Identify regulations that clearly apply to the event and can decisively determine if the event is permitted, prohibited, or unrelated to HIPAA.
+
+Note:
+It is possible that the event may be completely unrelated to the HIPAA regulations provided. In such cases, it's acceptable to leave both the "Lookup" and "Selected" parts empty.
+Balance your analysis between potentially applicable regulations ("Lookup") and clearly applicable regulations ("Selected").
+
+Event:{event}
+
+HIPAA Candidate Regulations:
+{candidates}
+
+Please organize your response into two main parts:
+
+Lookup: [List up to {look_up_pool_size} regulations that need more details, if any]
+1.section id.
+...
+{look_up_pool_size}. section id.
+
+Selected: [List up to {selected_pool_size} regulations that are directly relevant to the event, if any]
+1.section id.
+...
+{selected_pool_size}. section id.
+
+
+Assistant:

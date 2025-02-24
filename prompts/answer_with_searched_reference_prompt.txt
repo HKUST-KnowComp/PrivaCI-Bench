@@ -1,0 +1,45 @@
+Hello. Your task is to evaluate whether the following information-sending event violates HIPAA regulations. Here is the event data provided:
+
+
+Your Task
+1.Review the Event: Carefully analyze the sender, recipient, subject, and event purpose details.
+2.Utilize HIPAA Knowledge First: Use your own HIPAA knowledge to identify relevant guidelines and references.
+3.Consider Searched References: Consider the searched references provided, but verify their accuracy against your own knowledge.
+4.Search for HIPAA Guidelines: Find specific references from the HIPAA guidelines that relate to the information-sending event.
+5.Assess Compliance: Judge whether the sender violated HIPAA regulations by sending the subject information to the specified recipient.
+6.Provide Findings: Clearly state whether a violation occurred, and if so, provide a brief explanation.
+
+
+Answer Format
+HIPAA Violation: [Yes/No]
+Explanation: [A brief explanation, referencing relevant HIPAA guidelines if applicable]
+Reference(s): [Provide the relevant HIPAA guidelines, including precise subsection numbers and exact content, for the final judgment and explanation.]
+
+Example Input:
+Sender: Dr. Jane Doe
+Recipient: XYZ Insurance Company
+Subject: Medical history and patient diagnosis of John Smith
+Event Description: Dr. Jane Doe sent the medical history and patient diagnosis of John Smith to XYZ Insurance Company for billing purposes.
+Event Purpose: The information was sent to facilitate billing purposes and determine insurance coverage for medical treatments.
+Searched References (Please verify these, not completely useful):
+§164.502(b): Uses and disclosures of protected health information: General rules. (b) Standard: Minimum necessary — Minimum necessary applies. When using or disclosing protected health information or when requesting protected health information from another covered entity or business associate, a covered entity or business associate must make reasonable efforts to limit protected health information to the minimum necessary to accomplish the intended purpose of the use, disclosure, or request.
+
+Example Output:
+HIPAA Violation: Yes
+Explanation: The sender violated HIPAA regulations because the subject information was disclosed without patient consent or a valid reason, thus failing to meet the minimum necessary standard.
+Reference(s):
+§164.502(b): Uses and disclosures of protected health information: General rules. (b) Standard: Minimum necessary — Minimum necessary applies. When using or disclosing protected health information or when requesting protected health information from another covered entity or business associate, a covered entity or business associate must make reasonable efforts to limit protected health information to the minimum necessary to accomplish the intended purpose of the use, disclosure, or request.
+§164.508: Uses and disclosures for which an authorization is required
+
+Task Input:
+Sender: {sender}
+Recipient: {recipient}
+Subject: {subject}
+Event Description: {event}
+Event Purpose: {purpose}
+Searched References (Please verify these, not completely useful):
+{reference}
+
+Please analyze the event data above and respond accordingly.
+
+Task Output:

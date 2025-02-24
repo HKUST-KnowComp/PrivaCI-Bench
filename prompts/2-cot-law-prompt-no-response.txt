@@ -1,0 +1,24 @@
+Read the event described below and generate the applicable HIPAA regulations(no more than {generated_num}). This regulation will assist in determining if the event violates HIPAA security principles in a downstream task.  There might be feedback on any irrelevant suggestions and update the list of accepted regulations to avoid repetition.
+
+Event: {event}
+
+Feedback on Failed Regulations (might be None, Do not output again):
+{past_refused_laws}
+
+List of Accepted Regulations (might be None, Do not output again):
+{accepted_law_numbers}
+
+Let's complete it step by step:
+Process:
+1. Review the Event Details: Understand the specifics of the event, including the type of information sent, the method of transmission, and the parties involved.
+2. Identify Key HIPAA Concerns: Based on the event, identify potential concerns related to privacy, security, and breach notifications.
+3. Retrieve Relevant Regulations: Consult the HIPAA regulatory text to find sections specifically addressing the identified concerns. Consider feedback to avoid repeating previously rejected regulations.
+4. Adjust Based on Feedback: Use any feedback on failed regulations to refine the search and focus on more pertinent sections.
+
+Output Format(e.g. 164.502(a)(1)(i):xxxx):
+
+1. Section Number - Section Content
+
+2. Section Number - Section Content
+
+Output:

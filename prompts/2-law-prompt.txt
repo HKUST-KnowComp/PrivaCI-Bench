@@ -1,0 +1,19 @@
+Read the event described below and generate the applicable HIPAA regulations(no more than {generated_num}). This regulation will assist in determining if the event violates HIPAA security principles in a downstream task.  There might be feedback on any irrelevant suggestions and update the list of accepted regulations to avoid repetition.
+
+Event: {event}
+
+Feedback on Failed Regulations (might be None, Do not output again):
+{past_refused_laws}
+
+List of Accepted Regulations (might be None, Do not output again):
+{accepted_law_numbers}
+
+
+Output Format(e.g. xxx.xxx(x)(xx)...: xxxxx):
+1. Section Number - Section Content
+
+2. Section Number - Section Content
+
+...
+
+Generated Relevant HIPAA Regulations:

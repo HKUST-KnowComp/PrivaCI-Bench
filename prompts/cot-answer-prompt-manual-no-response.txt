@@ -1,0 +1,22 @@
+Evaluate whether the described information sending event violates HIPAA regulations.
+
+Event:
+{event}
+
+Let's approach this step by step:
+1. Planning: Formulate a detailed plan to analyze the event in compliance with HIPAA regulations.
+2. Execution: Execute the plan methodically to assess the compliance of the event.
+3. Decision Making: Determine based on the findings whether there was a HIPAA violation.
+
+- Plans:
+  1. Retrieve Related HIPAA Regulation Items: Research and gather the specific HIPAA regulations that pertain to the aspects being evaluated, such as privacy, security, and breach notification rules.
+  2. Identify Protected Health Information (PHI): Determine if the information sent includes any PHI such as names, medical records, or other identifiers.
+  3. Verify Authorization: Check if the recipient of the information was authorized to receive PHI, focusing on their role and relationship to the patient.
+  4. Review Consent and Authorization Documents: Confirm there was valid patient consent or legal authorization for sharing their PHI.
+  5. Evaluate Transmission Security: Analyze the security measures used during the transmission, such as encryption, to ensure compliance with HIPAA security protocols.
+
+Output Format:
+
+Violation: [yes/no, 'yes' for violation, 'no' for no violation].
+
+Output

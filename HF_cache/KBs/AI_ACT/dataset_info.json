@@ -1,0 +1,68 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "reference": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "norm_type": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "sender": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "sender_role": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "recipient": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "recipient_role": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "subject": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "subject_role": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "information_type": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "consent_form": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "purpose": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "sender_is_subject": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "recipient_is_subject": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "regulation_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "regulation_content": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}

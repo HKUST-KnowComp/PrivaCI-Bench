@@ -1,0 +1,13 @@
+Determine whether {domain} regulations are applicable to the event. You have 2 options to choose:
+
+(A) {domain} is applicable to the event.
+(B) {domain} is not applicable to the event.
+
+Event:
+{event}
+
+Output Format:
+
+Choice: [A. Applicable | B. Not Applicable]
+
+Assistant:

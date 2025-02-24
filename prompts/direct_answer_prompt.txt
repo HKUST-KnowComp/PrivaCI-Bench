@@ -1,0 +1,15 @@
+Determine the relationship between the provided event and the {domain} regulations. You have three options for your conclusion:
+(A) The event is prohibited by {domain}.
+(B) The event is permitted by {domain}.
+(C) The event is not related to {domain}.
+
+Event:
+{event}
+
+Output Format:
+
+Choice: [A. Prohibited | B. Permitted | C. Not related ]
+
+Assistant:
+
+

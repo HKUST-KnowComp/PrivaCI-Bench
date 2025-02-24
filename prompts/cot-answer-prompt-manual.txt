@@ -1,0 +1,28 @@
+Determine the relationship between the provided event and HIPAA regulations. You have three options for your conclusion:
+(A) The event is prohibited by HIPAA.
+(B) The event is permitted by HIPAA.
+(C) The event is not related to HIPAA.
+
+Event:
+{event}
+
+Let's approach this step by step:
+
+1. Identify Relevant HIPAA Regulations: Start by researching and compiling the HIPAA regulations that could be relevant to the event, particularly focusing on privacy, security, and breach notification rules.
+2. Examine the Nature of Information: Determine if the event involves any Protected Health Information (PHI), such as names, medical records, or other personal identifiers.
+3. Evaluate HIPAA Applicability: Assess whether the event actually falls under the jurisdiction of HIPAA based on the nature of the entity involved and the type of information handled.
+4. Assess Authorization and Consent: If HIPAA is applicable, verify if the recipient of the information was authorized and check for valid patient consent or another legal basis for sharing PHI.
+5. Evaluate Security Measures: If applicable, review the security measures used during the information transmission to ensure they comply with HIPAA's security protocols.
+
+Output Format:
+
+Execution: [Document the outcomes from executing your plans:]
+plan 1 - ....
+plan 2 - ....
+....
+plan 5 - ...
+
+Choice: [A. Prohibited | B. Permitted | C. Not related ]
+
+
+Assistant:

@@ -1,0 +1,23 @@
+Read the event described below and generate the applicable HIPAA regulations(no more than {generated_num}). This regulation will assist in determining if the event violates HIPAA security principles in a downstream task.
+
+Event: {event}
+
+Let's complete it step by step:
+1. Review the Event Details: Understand the specifics of the event, including the type of information sent, the method of transmission, and the parties involved.
+2. Identify Key HIPAA Concerns: Based on the event, identify potential concerns related to privacy, security, and breach notifications.
+3. Retrieve Relevant Regulations: Consult the HIPAA regulatory text to find sections specifically addressing the identified concerns. Consider feedback to avoid repeating previously rejected regulations.
+
+Output Format:
+
+Execution: [Document the outcomes from executing the steps:]
+1. - ...
+2. - ...
+...
+4. - ...
+
+Generated Related HIPAA Regulations(e.g. re"[0-9]+\.[0-9]+(\([0-9A-Za-zivx]+\))*" - xxxx):
+1. Section Number - Section Content
+...
+N. Section Number - Section Content
+
+Output:

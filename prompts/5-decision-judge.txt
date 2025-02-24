@@ -1,0 +1,14 @@
+Assess the correctness of the previous agent’s conclusion about a HIPAA violation based on their provided reasoning. Consider the specific event details, the relevance of HIPAA regulations, and any external advice referenced to substantiate the conclusion.
+
+Event Details:
+{event}
+
+Previous Agent's Reasoning:
+{reason}
+
+Previous Agent's Conclusion:
+{conclusion}
+
+Output Format:
+1.Judgment:[yes/no. "yes" for correct conclusion, "no" for wrong conclusion]
+2.Reason: (Explain why the candidate regulation is relevant or irrelevant to the event)

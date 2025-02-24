@@ -1,0 +1,14 @@
+You have been provided with an event and a candidate {domain} regulation. Assess whether the content of the candidate regulation is directly related to the event. Provide your judgment along with reasons for your decision.
+
+Event: {event}
+
+Candidate {domain} Regulation: {candidate_law}
+
+Assessment of Relevance:
+Output Format:
+**Judgment**: [yes/no. "yes" for relevant, "no" for not irrelevant]
+**Reason**: (Explain why the candidate regulation is relevant or irrelevant to the event)
+
+
+
+Output:

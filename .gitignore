@@ -1,0 +1,6 @@
+*.log
+*.ipynb
+gdpr_regulations_article_prompt_list.json
+gdpr_regulations_recital_prompt_list.json
+prompt_cache/
+__pycache__/

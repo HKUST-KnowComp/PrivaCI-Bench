@@ -1,0 +1,33 @@
+Given a regulation and an information sending or requesting event, identify and if the given regulation is relevant to the event. The process involves the following steps:
+
+1. **Understand the Event**:
+   - Extract key details from the description of the event, such as the type of information being exchanged, the parties involved, and the context or domain (e.g., healthcare, finance, education).
+
+2. **Analyze The Regulation**:
+   - For given regulation, determine its scope and main focus by reading the summary or key sections. Identify the primary subject matter, applicable contexts, or targeted stakeholders.
+
+3. **Relevance Matching**:
+   - Compare the key details of the event with the main focus of the regulation. Consider:
+     - Does the regulation explicitly address scenarios similar to the event?
+     - Is the regulation intended for the context or domain of the event?
+     - Are the parties involved in the event the type of entities the regulation aims to govern?
+
+4. **Filtering Decision**:
+   - If a regulation's focus aligns well with the event’s details, please answer yes.
+   - If there is little to no alignment, such as different contexts, unrelated subjects, or inappropriate scopes, please answer no.
+
+Event:{event}
+
+HIPAA Regulation:
+{candidates}
+
+Note:
+It is possible that the event may be completely unrelated to the HIPAA regulations provided. In such cases, just answer NONE.
+
+Question:
+Is the given HIPAA Regulation relevant with the given event?
+
+Output Format:
+First answer yes or no, then explain the reason based on the given steps.
+
+Assistant:

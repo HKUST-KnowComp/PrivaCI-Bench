@@ -1,0 +1,14 @@
+Determine whether the event is promitted or prohibited regarding to regulations. You have two options for your conclusion:
+(A) The event is prohibited.
+(B) The event is permitted.
+
+Event:
+{event}
+
+Output Format:
+
+Choice: [A. Prohibited | B. Permitted]
+
+Assistant:
+
+

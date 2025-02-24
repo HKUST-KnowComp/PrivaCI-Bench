@@ -1,0 +1,7 @@
+Read the event described below and summarize it using the format: "A sent what to B for the purpose of what." This structured summary will be used for detecting potential HIPAA regulation violations in a downstream task. For example, "Doctor sent patient records to Consultant for the purpose of review."
+
+Event:
+
+{event}
+
+Your conclusion(Follow the format):

@@ -1,0 +1,32 @@
+Determine whether the event is promitted or prohibited regarding to regulations. You have three options for your conclusion:
+(A) The event is prohibited.
+(B) The event is permitted.
+
+**Event**:
+{event}
+
+Let's approach this step by step:
+
+**Planning**: Outline the steps(no more than 3) necessary to analyze the relationship of the event with law standards.
+**Execution**: Implement these steps to gather information and assess the specific aspects of the event.
+**Decision Making**: Based on the information collected and analyzed, determine if there was a violation.
+
+
+Your output format should strictly follows:
+
+**Plans**: [List the steps planned to evaluate the event:]
+plan 1 - ...
+plan 2 - ...
+....
+plan N - ...
+
+**Execution**: [Document the outcomes from executing your plans:]
+plan 1 - ....
+plan 2 - ....
+....
+plan N - ...
+
+**Choice**: [A. Prohibited | B. Permitted ]
+
+
+Assistant:

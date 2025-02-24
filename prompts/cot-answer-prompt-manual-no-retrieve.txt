@@ -1,0 +1,29 @@
+Determine the relationship between the provided event and HIPAA regulations. You have three options for your conclusion:
+(A) The event is prohibited by HIPAA.
+(B) The event is permitted by HIPAA.
+(C) The event is not related to HIPAA.
+
+Event:
+{event}
+
+Let's approach this step by step:
+
+1. Analyze the details of the event to understand whether it involves health information, health care provision, or health insurance transactions.
+2. Consider the key aspects of HIPAA: Privacy, Security, Breach Notification, and Transactions and Code Sets Standards.
+3. Evaluate if the event involves misuse, unauthorized disclosure, or inadequate protection of protected health information (PHI) to determine if it violates HIPAA.
+4. Assess if the event follows proper protocols for handling PHI, including appropriate safeguards and compliance with HIPAA standards.
+5. Determine if the event has no connection to PHI or HIPAA-regulated activities.
+6. Choose option A if the event violates HIPAA rules, option B if it complies with HIPAA, or option C if it is unrelated to HIPAA.
+
+Output Format:
+
+Execution: [Document the outcomes from executing your plans:]
+plan 1 - ....
+plan 2 - ....
+....
+plan 6 - ...
+
+Choice: [A. Prohibited | B. Permitted | C. Not related ]
+
+
+Assistant:

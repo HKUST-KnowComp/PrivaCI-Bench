@@ -1,0 +1,32 @@
+Assess the relationship between the provided event and the {domain} regulations, and select one of the following conclusions:
+
+(A) The event is prohibited by {domain}.
+(B) The event is permitted by {domain}.
+(C) The event is not related to {domain}.
+
+You will be given some sections of {domain} regulations for reference (Note: these references may not be 100% accurate). Your task is to consider the specifics of the event in light of these sections. Remember that the provided references are not exhaustive, and the presence of a regulation does not automatically imply relevance or violation.
+
+Event:
+{event}
+
+{domain} Regulations Reference:
+{reference_regulations}
+
+Let's complete it step by step:
+1. Analyze the specific details of the event by identifying who is involved (sender and recipient), what information is being sent or requested, and for what purpose.
+2. Compare key elements of the event with {domain} rules, identifying if they involve the use, disclosure, or sensitive information as defined by {domain}.
+3. Evaluate the provided {domain} regulation excerpts to see if they directly relate to the event.
+4. Conclude based on the comprehensive analysis whether the event is in compliance, in violation, or unrelated to {domain}.
+
+Output Format:
+
+**Execution**: [Document the outcomes from executing each step]:
+1. - ...
+2. - ...
+...
+4. - ...
+
+
+**Choice**: [A. Prohibited | B. Permitted | C. Not related]
+
+Assistant:

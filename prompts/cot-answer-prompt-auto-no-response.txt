@@ -1,0 +1,17 @@
+Evaluate whether the described information sending event violates HIPAA regulations.
+
+Event:
+{event}
+
+Let's approach this step by step:
+
+Planning: Outline the steps necessary to analyze the event for compliance with HIPAA standards.
+Execution: Implement these steps to gather information and assess the specific aspects of the event.
+Decision Making: Based on the information collected and analyzed, determine if there was a HIPAA violation.
+Output Format:
+
+Plans: [List the steps planned to evaluate the event:]
+
+Violation: [yes/no, 'yes' for violation, 'no' for no violation].
+
+Output

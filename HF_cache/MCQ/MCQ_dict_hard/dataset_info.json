@@ -1,0 +1,40 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "attr": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "choice1": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "choice2": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "choice3": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "choice4": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "domain": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "scenario": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}
