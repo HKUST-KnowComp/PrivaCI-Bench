@@ -1,5 +1,9 @@
 # Official Code Repo for PrivaCI-Bench
 
+## Our Re-implementation of the EU AI Act Compliance Checker
+
+For the EU AI ACT, we have converted the official EU AI Act Compliance Checker (https://artificialintelligenceact.eu/assessment/eu-ai-act-compliance-checker/) to the Networkx MultiGraph structure by manually enumerating all the possible options. You may refer to our notebook (https://github.com/HKUST-KnowComp/PrivaCI-Bench/blob/main/EU_AI_ACT.ipynb) to get the converted compliance graph.
+
 ## Installation
 ## Config File
 Please configure your API key, HF token, and cache path and log path in `config.py`
